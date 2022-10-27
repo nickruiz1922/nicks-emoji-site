@@ -1,0 +1,94 @@
+html {
+    height: 100vh;
+    font-family: 'Lekton', sans-serif;
+}
+
+body {
+    padding: 10px;
+    background: black;
+}
+
+#emoji-container {
+    margin: 40px auto;
+    width: 700px;
+    text-align: center;
+    border: 7px dashed #E23349;
+    border-radius: 20px;
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+#push-btn,#unshift-btn {
+    background-color: #80D87F;
+}
+
+#shift-btn,#pop-btn {
+    background-color: #E23349;
+}
+
+h1 {
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 2px white;
+}
+
+input {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    font-size: 50px;
+    background: white;
+    border: 7px solid #E23349;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#btn-container {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+button {
+    font-family: 'Lekton', sans-serif;
+    font-size: 50px;
+    background: darkcyan;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+    border: none;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#btn-section {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    text-shadow: 0px 0px 2px white;
+}
+
+#enter-section {
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    text-shadow: 0px 0px 2px white;
+}
+
+.buttons-wrapper{
+    margin: 0 auto;
+}
